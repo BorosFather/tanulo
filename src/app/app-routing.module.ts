@@ -4,7 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { TauloComponent } from './taulo/taulo.component';
 
 const routes: Routes = [
-  {path: "tanulo", component:TauloComponent},
+  {path: "", component:TauloComponent},
   {path: "about", component:AboutComponent}
 ];
 
