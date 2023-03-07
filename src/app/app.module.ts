@@ -4,11 +4,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TauloComponent } from './taulo/taulo.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TauloComponent
+    TauloComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
