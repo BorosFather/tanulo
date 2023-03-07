@@ -1,1 +1,24 @@
-<p>taulo works!</p>
+<div class="container">
+    <h1 class="text-center">Tanulók</h1>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nema</th>
+          <th scope="col">Gender</th>
+          <th scope="col">Group</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="" *ngfor="let student of students">1</th>
+          <td>{{student.id}}</td>
+          <td>{{student.name}}</td>
+          <td>{{student.gender}}</td>
+          <td>{{student.group}}</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+
