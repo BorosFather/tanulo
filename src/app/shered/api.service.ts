@@ -1,3 +1,13 @@
+/*
+* File: api.service.ts
+* Author: Boros Zoltán
+* Copyright: 2023 Borosfather
+* Group: Szoft II N
+* Date: 2023-03-08
+* Github: https://github.com/borosfather
+* Licenc: GNU GPL
+*/ 
+
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
